@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.appsdeveloperblog.estore.core.model.FetchUserPaymentDetailsQuery;
 import com.appsdeveloperblog.estore.core.model.User;
+import com.appsdeveloperblog.estore.core.query.FetchUserPaymentDetailsQuery;
 
 @RestController
 @RequestMapping("/users")
